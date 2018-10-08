@@ -15,7 +15,8 @@
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
+    "standard": "standard demo/src/*.js src/*.js tests/*.js --env mocha",
+    "test": "npm run standard && nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
@@ -24,9 +25,11 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "expect": "^23.6.0",
     "nwb": "0.23.x",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "standard": "^12.0.1"
   },
   "author": "",
   "homepage": "",
