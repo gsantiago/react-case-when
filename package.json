@@ -1,7 +1,7 @@
 {
   "name": "react-case-when",
-  "version": "1.0.0",
-  "description": "react-case-when React component",
+  "version": "0.0.1",
+  "description": "Small utility module for flow-control in React",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
