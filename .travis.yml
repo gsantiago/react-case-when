@@ -1,5 +1,4 @@
 sudo: false
-
 language: node_js
 node_js:
   - 8
@@ -14,3 +13,6 @@ after_success:
 branches:
   only:
     - master
+
+service_name: travis-pro
+repo_token: oyshPqObipczeuEoqXrQ8sS9zaNGOC9fG
