@@ -1,6 +1,6 @@
 {
   "name": "react-case-when",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small utility module for conditional rendering in React",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -31,11 +31,24 @@
     "react-dom": "^16.5.2",
     "standard": "^12.0.1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsantiago/react-case-when"
+  },
+  "author": "Guilherme Santiago",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
   "keywords": [
-    "react-component"
+    "react",
+    "switch",
+    "case",
+    "when",
+    "conditional",
+    "rendering",
+    "control",
+    "flow",
+    "if",
+    "match",
+    "component"
   ]
 }

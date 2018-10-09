@@ -3,6 +3,7 @@
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
+[![standard][standard-badge]][standard]
 
 `react-case-when` is a small module that provides two simple components
 to simplify conditional rendering in React.
@@ -140,3 +141,6 @@ MIT
 
 [coveralls-badge]: https://img.shields.io/coveralls/gsantiago/react-case-when/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/gsantiago/react-case-when
+
+[standard-badge]: https://img.shields.io/badge/code%20style-standard-green.svg?longCache=true&style=flat-square
+[standard]: https://standardjs.com
